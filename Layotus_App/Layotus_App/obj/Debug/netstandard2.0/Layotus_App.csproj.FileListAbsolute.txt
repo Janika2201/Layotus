@@ -1,0 +1,15 @@
+C:\Users\opilane\source\repos\Layotus_App\Layotus_App\Layotus_App\bin\Debug\netstandard2.0\Layotus_App.deps.json
+C:\Users\opilane\source\repos\Layotus_App\Layotus_App\Layotus_App\bin\Debug\netstandard2.0\Layotus_App.dll
+C:\Users\opilane\source\repos\Layotus_App\Layotus_App\Layotus_App\bin\Debug\netstandard2.0\ref\Layotus_App.dll
+C:\Users\opilane\source\repos\Layotus_App\Layotus_App\Layotus_App\bin\Debug\netstandard2.0\Layotus_App.pdb
+C:\Users\opilane\source\repos\Layotus_App\Layotus_App\Layotus_App\obj\Debug\netstandard2.0\Layotus_App.csprojAssemblyReference.cache
+C:\Users\opilane\source\repos\Layotus_App\Layotus_App\Layotus_App\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\opilane\source\repos\Layotus_App\Layotus_App\Layotus_App\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\opilane\source\repos\Layotus_App\Layotus_App\Layotus_App\obj\Debug\netstandard2.0\Layotus_App.AssemblyInfoInputs.cache
+C:\Users\opilane\source\repos\Layotus_App\Layotus_App\Layotus_App\obj\Debug\netstandard2.0\Layotus_App.AssemblyInfo.cs
+C:\Users\opilane\source\repos\Layotus_App\Layotus_App\Layotus_App\obj\Debug\netstandard2.0\Layotus_App.csproj.CoreCompileInputs.cache
+C:\Users\opilane\source\repos\Layotus_App\Layotus_App\Layotus_App\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\opilane\source\repos\Layotus_App\Layotus_App\Layotus_App\obj\Debug\netstandard2.0\Layotus_App.dll
+C:\Users\opilane\source\repos\Layotus_App\Layotus_App\Layotus_App\obj\Debug\netstandard2.0\ref\Layotus_App.dll
+C:\Users\opilane\source\repos\Layotus_App\Layotus_App\Layotus_App\obj\Debug\netstandard2.0\Layotus_App.pdb
+C:\Users\opilane\source\repos\Layotus_App\Layotus_App\Layotus_App\obj\Debug\netstandard2.0\StackPage.xaml.g.cs

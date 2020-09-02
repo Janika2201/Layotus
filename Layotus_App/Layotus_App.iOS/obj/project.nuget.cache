@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "GYmYjWftuSrvVlo5w2COpjApDmP1iQSaAeZG8V7/ttQdL6v1ilO3AoSPHTt7MuIOtIwrSY7v5zEIGWKYKUD/Ug==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\opilane\\source\\repos\\Layotus_App\\Layotus_App\\Layotus_App.iOS\\Layotus_App.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+  ],
+  "logs": []
+}
