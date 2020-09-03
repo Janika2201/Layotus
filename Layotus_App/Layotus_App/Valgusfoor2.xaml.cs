@@ -18,29 +18,63 @@ namespace Layotus_App
             Label punane = new Label()
             {
                 Text = "Punane",
-                TextColor = Color.Red,
+                TextColor = Color.White,
                 FontSize=30,
                 FontAttributes=FontAttributes.Bold
+            };
+            Frame pun = new Frame()
+            {
+                BackgroundColor=Color.Red,
+                Content=punane,
+                CornerRadius=90,
+                Margin =new Thickness(80,0,80,0)
             };
             Label kollane = new Label()
             {
                 Text = "Kollane",
-                TextColor = Color.Yellow,
+                TextColor = Color.White,
                 FontSize = 30,
                 FontAttributes = FontAttributes.Bold
+            };
+            Frame kol = new Frame()
+            {
+                BackgroundColor = Color.Yellow,
+                Content = kollane,
+                CornerRadius = 90,
+                Margin = new Thickness(80, 0, 80, 0)
             };
             Label roheline = new Label()
             {
-                Text = "Punane",
-                TextColor= Color.Green,
+                Text = "Roheline",
+                TextColor= Color.White,
                 FontSize = 30,
                 FontAttributes = FontAttributes.Bold
             };
+            Frame roh = new Frame()
+            {
+                BackgroundColor = Color.Green,
+                Content = roheline,
+                CornerRadius = 90,
+                Margin = new Thickness(80, 0, 80, 0)
+            };
+            Button off = new Button()
+            {
+                Text = "off",
+                BackgroundColor=Color.Red
+                
+            };
+            Button on = new Button()
+            {
+                Text = "on",
+                BackgroundColor = Color.Red
+
+            };
             StackLayout stackLayout = new StackLayout()
             {
-                Children = { punane, kollane, roheline }
+                Children = { pun, kol, roh, off, on}
             };
+            //stackLayout.Orientation = StackOrientation.Vertical;
             Content = stackLayout;
-        }
+            }
     }
 }
