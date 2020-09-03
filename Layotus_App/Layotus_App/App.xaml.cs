@@ -10,7 +10,7 @@ namespace Layotus_App
         {
             InitializeComponent();
 
-            MainPage = new StackPage();//стартовая и единственная страница
+            MainPage = new Valgusfoor2();//стартовая и единственная страница
         }
 
         protected override void OnStart()

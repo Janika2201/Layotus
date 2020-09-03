@@ -4,7 +4,7 @@
              x:Class="Layotus_App.MainPage">
 
     <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="50">
+        <Frame BackgroundColor="#aaaaaa" Padding="24" CornerRadius="50">
             <Label Text="Tere tulemast Xamarin.Forms!" HorizontalTextAlignment="Center" 
                    TextColor="White" 
                    FontSize="36" 
