@@ -19,8 +19,6 @@ namespace Layotus_App
         private bool tootab = false;
 
 
-
-
         public Valgusfoor2()
         {
             //InitializeComponent();
@@ -84,7 +82,6 @@ namespace Layotus_App
             };
             StackLayout stackLayout = new StackLayout()
             {
-<<<<<<< HEAD
                 Children = { pun, kol, roh }
             };
             stackLayout.Orientation = StackOrientation.Vertical;
@@ -114,10 +111,6 @@ namespace Layotus_App
 
         }
         
-        
-        
-
-
         private void Tap_Tapped(object sender, EventArgs e)
         {
             Frame fr=sender as Frame;
@@ -170,23 +163,6 @@ namespace Layotus_App
                 await Task.Run(() => Thread.Sleep(1000));
 
             }
-            
-        }
-        }
-    }
-=======
-                Children = { pun, kol, roh}
-            };
-            stackLayout.Orientation = StackOrientation.Vertical;
-            Content = stackLayout;
-            StackLayout stackLayout1 = new StackLayout()
-            {
-                Children = { on, off }
-            };
-
-            stackLayout1.Orientation = StackOrientation.Horizontal;
-            Content = stackLayout1;
-        }
+          }
     }
 }
->>>>>>> fcf66e8fbd51ad4098275bc50e8622be77946595
