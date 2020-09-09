@@ -84,6 +84,7 @@ namespace Layotus_App
             };
             StackLayout stackLayout = new StackLayout()
             {
+<<<<<<< HEAD
                 Children = { pun, kol, roh }
             };
             stackLayout.Orientation = StackOrientation.Vertical;
@@ -173,3 +174,19 @@ namespace Layotus_App
         }
         }
     }
+=======
+                Children = { pun, kol, roh}
+            };
+            stackLayout.Orientation = StackOrientation.Vertical;
+            Content = stackLayout;
+            StackLayout stackLayout1 = new StackLayout()
+            {
+                Children = { on, off }
+            };
+
+            stackLayout1.Orientation = StackOrientation.Horizontal;
+            Content = stackLayout1;
+        }
+    }
+}
+>>>>>>> fcf66e8fbd51ad4098275bc50e8622be77946595
