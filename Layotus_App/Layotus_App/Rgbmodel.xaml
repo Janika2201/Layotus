@@ -3,35 +3,28 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Layotus_App.Rgbmodel"
              Title="RGB Color Sliders">
-    <ContentPage.Resources>
-        <ResourceDictionary>
-            <Style TargetType="Slider">
-                <Setter Property="Maximum" Value="255" />
-            </Style>
-
-            <Style TargetType="Label">
-                <Setter Property="HorizontalTextAlignment" Value="Start" />
-            </Style>
-        </ResourceDictionary>
-    </ContentPage.Resources>
-    <StackLayout Margin="10">
-        <BoxView x:Name="boxView"
-                 Color="White"
-                 VerticalOptions="FillAndExpand" />
-
-        <Slider x:Name="redSlider"
-                ValueChanged="redSlider_ValueChanged" />
-
-        <Label x:Name="redLabel" />
-
-        <Slider x:Name="greenSlider"
-                ValueChanged="redSlider_ValueChanged" />
-
-        <Label x:Name="greenLabel" />
-
-        <Slider x:Name="blueSlider"
-                ValueChanged="redSlider_ValueChanged" />
-
-        <Label x:Name="blueLabel" />
-    </StackLayout>
+    <ContentPage.Content>
+        <StackLayout Margin="10">
+            <BoxView x:Name="boxView"
+                   BackgroundColor="White"
+                   VerticalOptions="FillAndExpand"
+                   Margin="10"></BoxView>
+            <Slider x:Name="redSlider" Minimum="0" Maximum="255" Value="15"
+                        ValueChanged="REDSlider_ValueChanged_1"  VerticalOptions="Center"/>
+            <Label x:Name="redLabel"
+                       VerticalOptions="Center"/>
+            <Slider x:Name="greenSlider" Minimum="0" Maximum="255" Value="15"
+                        ValueChanged="REDSlider_ValueChanged_1"  VerticalOptions="Center"/>
+            <Label x:Name="greenLabel" 
+                       VerticalOptions="Center"/>
+            <Slider x:Name="blueSlider" Minimum="0" Maximum="255" Value="15"
+                        ValueChanged="REDSlider_ValueChanged_1"  VerticalOptions="Center" />
+            <Label x:Name="blueLabel" 
+                       VerticalOptions="Center"/>
+            <Button x:Name="Btn"
+                    Text="random"
+                    Clicked="RandomBtn_Clicked"
+                    HorizontalOptions="FillAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>

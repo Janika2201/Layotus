@@ -17,7 +17,11 @@ namespace Layotus_App
             InitializeComponent();
         }
 
-        private void redSlider_ValueChanged(object sender, ValueChangedEventArgs args)
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+        }
+        private void REDSlider_ValueChanged_1(object sender, ValueChangedEventArgs args)
         {
             if (sender == redSlider)
             {
@@ -36,9 +40,17 @@ namespace Layotus_App
                                           (int)greenSlider.Value,
                                           (int)blueSlider.Value);
         }
-        public partial class LabelPage : ContentPage
+        Random rnd = new Random();
+        private void RandomBtn_Clicked(object sender, EventArgs e)
         {
-
+            int R = rnd.Next(0, 255);
+            int G = rnd.Next(0, 255);
+            int B = rnd.Next(0, 255);
+            redSlider.Value = R;
+            greenSlider.Value = G;
+            blueSlider.Value = B;
+            Btn.BackgroundColor = Color.FromRgb(R, G, B);
+            boxView.BackgroundColor = Color.FromRgb(R, G, B);
         }
     }
-}
+} 

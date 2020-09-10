@@ -16,3 +16,16 @@ C:\Users\opilane\source\repos\Layotus_App\Layotus_App\Layotus_App\obj\Debug\nets
 C:\Users\opilane\source\repos\Layotus_App\Layotus_App\Layotus_App\obj\Debug\netstandard2.0\Valgustoor.xaml.g.cs
 C:\Users\opilane\source\repos\Layotus_App\Layotus_App\Layotus_App\obj\Debug\netstandard2.0\Valgusfoor2.xaml.g.cs
 C:\Users\opilane\source\repos\Layotus_App\Layotus_App\Layotus_App\obj\Debug\netstandard2.0\Rgbmodel.xaml.g.cs
+C:\Users\Lenovo\source\repos\Layotus\Layotus_App\Layotus_App\obj\Debug\netstandard2.0\Layotus_App.csprojAssemblyReference.cache
+C:\Users\Lenovo\source\repos\Layotus\Layotus_App\Layotus_App\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Lenovo\source\repos\Layotus\Layotus_App\Layotus_App\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Lenovo\source\repos\Layotus\Layotus_App\Layotus_App\obj\Debug\netstandard2.0\Rgbmodel.xaml.g.cs
+C:\Users\Lenovo\source\repos\Layotus\Layotus_App\Layotus_App\obj\Debug\netstandard2.0\StackPage.xaml.g.cs
+C:\Users\Lenovo\source\repos\Layotus\Layotus_App\Layotus_App\obj\Debug\netstandard2.0\Valgusfoor2.xaml.g.cs
+C:\Users\Lenovo\source\repos\Layotus\Layotus_App\Layotus_App\obj\Debug\netstandard2.0\Valgustoor.xaml.g.cs
+C:\Users\Lenovo\source\repos\Layotus\Layotus_App\Layotus_App\obj\Debug\netstandard2.0\Layotus_App.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Layotus\Layotus_App\Layotus_App\obj\Debug\netstandard2.0\Layotus_App.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\Layotus\Layotus_App\Layotus_App\obj\Debug\netstandard2.0\Layotus_App.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\Layotus\Layotus_App\Layotus_App\obj\Debug\netstandard2.0\Layotus_App.dll
+C:\Users\Lenovo\source\repos\Layotus\Layotus_App\Layotus_App\obj\Debug\netstandard2.0\ref\Layotus_App.dll
+C:\Users\Lenovo\source\repos\Layotus\Layotus_App\Layotus_App\obj\Debug\netstandard2.0\Layotus_App.pdb

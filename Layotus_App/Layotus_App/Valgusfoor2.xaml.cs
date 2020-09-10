@@ -173,24 +173,7 @@ namespace Layotus_App
                 pun.BackgroundColor = Color.FromRgb(62, 62, 62);
                 kol.BackgroundColor = Color.FromRgb(62, 62, 62);
                 roh.BackgroundColor = Color.Green;
-            {
-                pun.BackgroundColor = Color.Red;
-                kol.BackgroundColor = Color.FromRgb(62, 62, 62);
-                roh.BackgroundColor = Color.FromRgb(62, 62, 62);
-
             }
-            else if (c == 2)
-            {
-                pun.BackgroundColor = Color.FromRgb(62, 62, 62);
-                kol.BackgroundColor = Color.Yellow;
-                roh.BackgroundColor = Color.FromRgb(62, 62, 62);
-            }
-            else if (c == 3)
-            {
-                pun.BackgroundColor = Color.FromRgb(62, 62, 62);
-                kol.BackgroundColor = Color.FromRgb(62, 62, 62);
-                roh.BackgroundColor = Color.Green;
-            }
-          }
-    }
+        }
+}
 }
