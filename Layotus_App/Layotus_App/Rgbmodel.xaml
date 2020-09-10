@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Layotus_App.Rgbmodel"
+             Title="RGB Color Sliders">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Slider">
+                <Setter Property="Maximum" Value="255" />
+            </Style>
+
+            <Style TargetType="Label">
+                <Setter Property="HorizontalTextAlignment" Value="Start" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <StackLayout Margin="10">
+        <BoxView x:Name="boxView"
+                 Color="White"
+                 VerticalOptions="FillAndExpand" />
+
+        <Slider x:Name="redSlider"
+                ValueChanged="redSlider_ValueChanged" />
+
+        <Label x:Name="redLabel" />
+
+        <Slider x:Name="greenSlider"
+                ValueChanged="redSlider_ValueChanged" />
+
+        <Label x:Name="greenLabel" />
+
+        <Slider x:Name="blueSlider"
+                ValueChanged="redSlider_ValueChanged" />
+
+        <Label x:Name="blueLabel" />
+    </StackLayout>
+</ContentPage>

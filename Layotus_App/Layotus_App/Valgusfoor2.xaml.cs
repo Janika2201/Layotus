@@ -19,8 +19,6 @@ namespace Layotus_App
         private bool tootab = false;
 
 
-
-
         public Valgusfoor2()
         {
             //InitializeComponent();
@@ -112,11 +110,6 @@ namespace Layotus_App
             roh.GestureRecognizers.Add(tap);
 
         }
-
-
-
-
-
         private void Tap_Tapped(object sender, EventArgs e)
         {
             Frame fr = sender as Frame;
@@ -158,7 +151,7 @@ namespace Layotus_App
         }
         Random rnd = new Random();
         
-        private async void Sisse_Clicked(object sender, EventArgs e)
+        private  void Sisse_Clicked(object sender, EventArgs e)
         {
             tootab = true;
             int c = rnd.Next(1, 4);
@@ -182,6 +175,6 @@ namespace Layotus_App
                 roh.BackgroundColor = Color.Green;
 
             }
-        }
+          }
     }
 }
