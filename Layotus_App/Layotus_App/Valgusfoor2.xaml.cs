@@ -150,18 +150,12 @@ namespace Layotus_App
             roh.BackgroundColor = Color.FromHex("#aaaaaa");
         }
         Random rnd = new Random();
-<<<<<<< HEAD
         
         private  void Sisse_Clicked(object sender, EventArgs e)
-=======
-
-        private async void Sisse_Clicked(object sender, EventArgs e)
->>>>>>> 7d10a9db0205936f6ca96229e8f8003c13495315
         {
             tootab = true;
             int c = rnd.Next(1, 4);
             if (c == 1)
-<<<<<<< HEAD
             {
                 pun.BackgroundColor = Color.Red;
                 kol.BackgroundColor = Color.FromRgb(62, 62, 62);
@@ -179,12 +173,10 @@ namespace Layotus_App
                 pun.BackgroundColor = Color.FromRgb(62, 62, 62);
                 kol.BackgroundColor = Color.FromRgb(62, 62, 62);
                 roh.BackgroundColor = Color.Green;
-=======
             {
                 pun.BackgroundColor = Color.Red;
                 kol.BackgroundColor = Color.FromRgb(62, 62, 62);
                 roh.BackgroundColor = Color.FromRgb(62, 62, 62);
->>>>>>> 7d10a9db0205936f6ca96229e8f8003c13495315
 
             }
             else if (c == 2)
