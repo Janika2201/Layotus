@@ -84,7 +84,6 @@ namespace Layotus_App
             };
             StackLayout stackLayout = new StackLayout()
             {
-<<<<<<< HEAD
                 Children = { pun, kol, roh }
             };
             stackLayout.Orientation = StackOrientation.Vertical;
@@ -113,16 +112,17 @@ namespace Layotus_App
             roh.GestureRecognizers.Add(tap);
 
         }
-        
-        
-        
+
+
+
 
 
         private void Tap_Tapped(object sender, EventArgs e)
         {
-            Frame fr=sender as Frame;
-            if ((fr == pun) &&(tootab==true)){
-                punane.Text = "Seisa ja oota!!"; 
+            Frame fr = sender as Frame;
+            if ((fr == pun) && (tootab == true))
+            {
+                punane.Text = "Seisa ja oota!!";
             }
             else if ((fr == kol) && (tootab == true))
             {
@@ -157,36 +157,31 @@ namespace Layotus_App
             roh.BackgroundColor = Color.FromHex("#aaaaaa");
         }
         Random rnd = new Random();
-        private object btn1;
-
+        
         private async void Sisse_Clicked(object sender, EventArgs e)
         {
-            pun.BackgroundColor = Color.Red;
-            pun.BorderColor = Color.WhiteSmoke;
-            tootab = false;
-            for (int i = 0; i < 100; i++)
+            tootab = true;
+            int c = rnd.Next(1, 4);
+            if (c == 1)
             {
-                punane.FontSize++;
-                await Task.Run(() => Thread.Sleep(1000));
+                pun.BackgroundColor = Color.Red;
+                kol.BackgroundColor = Color.FromRgb(62, 62, 62);
+                roh.BackgroundColor = Color.FromRgb(62, 62, 62);
 
             }
-            
-        }
-        }
-    }
-=======
-                Children = { pun, kol, roh}
-            };
-            stackLayout.Orientation = StackOrientation.Vertical;
-            Content = stackLayout;
-            StackLayout stackLayout1 = new StackLayout()
+            else if (c == 2)
             {
-                Children = { on, off }
-            };
+                pun.BackgroundColor = Color.FromRgb(62, 62, 62);
+                kol.BackgroundColor = Color.Yellow;
+                roh.BackgroundColor = Color.FromRgb(62, 62, 62);
+            }
+            else if (c == 3)
+            {
+                pun.BackgroundColor = Color.FromRgb(62, 62, 62);
+                kol.BackgroundColor = Color.FromRgb(62, 62, 62);
+                roh.BackgroundColor = Color.Green;
 
-            stackLayout1.Orientation = StackOrientation.Horizontal;
-            Content = stackLayout1;
+            }
         }
     }
 }
->>>>>>> fcf66e8fbd51ad4098275bc50e8622be77946595
