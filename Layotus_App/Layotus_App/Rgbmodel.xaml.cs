@@ -40,17 +40,17 @@ namespace Layotus_App
                                           (int)greenSlider.Value,
                                           (int)blueSlider.Value);
         }
-        Random rnd = new Random();
+        Random random = new Random();
         private void RandomBtn_Clicked(object sender, EventArgs e)
         {
-            int R = rnd.Next(0, 255);
-            int G = rnd.Next(0, 255);
-            int B = rnd.Next(0, 255);
-            redSlider.Value = R;
-            greenSlider.Value = G;
-            blueSlider.Value = B;
-            Btn.BackgroundColor = Color.FromRgb(R, G, B);
-            boxView.BackgroundColor = Color.FromRgb(R, G, B);
+            int Red = random.Next(0, 255);
+            int Green = random.Next(0, 255);
+            int Blue = random.Next(0, 255);
+            redSlider.Value = Red;
+            greenSlider.Value = Green;
+            blueSlider.Value = Blue;
+            Btn.BackgroundColor = Color.FromRgb(Red, Green, Blue);
+            boxView.BackgroundColor = Color.FromRgb(Red, Green, Blue);
         }
     }
 } 
